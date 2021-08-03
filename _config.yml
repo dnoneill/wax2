@@ -1,5 +1,12 @@
 baseurl: /wax2
 collections:
+  New Collection:
+    images:
+      source: raw_images/New Collection
+    layout: qatar_item
+    metadata:
+      source: New Collection.csv
+    output: true
   annotations:
     output: true
     permalink: /annotations/:name
