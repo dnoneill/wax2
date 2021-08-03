@@ -14,7 +14,7 @@ jobs:
       - name: install
         run: gem install bundler && bundle
       - name: test
-        run: bundle exec rake wax:derivatives:iiif qatar
+        run: bundle exec rake wax:derivatives:iiif
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
