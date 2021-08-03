@@ -13,7 +13,9 @@ jobs:
           bundler-cache: true
       - name: install
         run: gem install bundler && bundle
-      - name: test
+      - name: pages
+        run: bundle exec rake wax:pages test
+      - name: derivaties
         run: bundle exec rake wax:derivatives:iiif test
       - name: commit files
         run: |
