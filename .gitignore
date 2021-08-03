@@ -3,6 +3,7 @@ _site
 .sass-cache
 .jekyll-metadata
 .jekyll-cache
+.bundle
 
 # system things
 .DS_Store
@@ -13,3 +14,4 @@ Gemfile.lock
 
 # wax things
 wax_tasks
+vendor
