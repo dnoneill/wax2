@@ -12,6 +12,13 @@ collections:
     metadata:
       source: qatar.csv
     output: true
+  test:
+    images:
+      source: raw_images/test
+    layout: wax/collection_item
+    metadata:
+      source: test.csv
+    output: true
 copyright: Example copyright org, 2019
 description: Minimal Exhibitions with Jekyll
 exclude:
