@@ -1,4 +1,4 @@
-pid,artist,location,label,_date,object_type,test_field,current_location,source,order
-obj1,,,,,,test1,,,0
-obj2,,,,,,test2,,,1
-obj3,,,,,,test3,,,2
+pid,artist,location,label,_date,object_type,test_field,current_location,source,order,layout,collection,thumbnail,manifest
+obj1,,,,,,test1,,,0,wax/collection_item,test,"/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",/img/derivatives/iiif/obj1/manifest.json
+obj2,,,,,,test2,,,1,wax/collection_item,test,"/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg",/img/derivatives/iiif/obj2/manifest.json
+obj3,,,,,,test3,,,2,wax/collection_item,test,"",""
