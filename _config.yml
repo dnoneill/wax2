@@ -10,6 +10,13 @@ collections:
   annotations:
     output: true
     permalink: /annotations/:name
+  collectionname:
+    images:
+      source: raw_images/collectionname
+    layout: qatar_item
+    metadata:
+      source: collectionname.csv
+    output: true
   exhibits:
     output: true
   qatar:
@@ -81,6 +88,19 @@ sass:
 search:
   main:
     collections:
+      collectionname:
+        content: false
+        fields:
+        - pid
+        - artist
+        - location
+        - label
+        - _date
+        - object_type
+        - test_field
+        - current_location
+        - source
+        - order
       qatar:
         content: false
         fields:
