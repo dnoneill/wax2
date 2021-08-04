@@ -122,20 +122,6 @@ sass:
   style: compressed
 search:
   main:
-    collections:
-      collectionname:
-        content: false
-        fields:
-        - pid
-        - artist
-        - location
-        - label
-        - _date
-        - object_type
-        - test_field
-        - current_location
-        - source
-        - order
       qatar:
         content: false
         fields:
@@ -145,19 +131,6 @@ search:
         - _date
         - object_type
         - current_location
-      test_collection:
-        content: false
-        fields:
-        - pid
-        - artist
-        - location
-        - label
-        - _date
-        - object_type
-        - test_field
-        - current_location
-        - source
-        - order
       testing_run1:
         content: false
         fields:
@@ -171,33 +144,7 @@ search:
         - current_location
         - source
         - order
-      testrun_2:
-        content: false
-        fields:
-        - pid
-        - artist
-        - location
-        - label
-        - _date
-        - object_type
-        - test_field
-        - current_location
-        - source
-        - order
-      testrun_3:
-        content: false
-        fields:
-        - pid
-        - artist
-        - location
-        - label
-        - _date
-        - object_type
-        - test_field
-        - current_location
-        - source
-        - order
-      testrun_4:
+      test:
         content: false
         fields:
         - pid
