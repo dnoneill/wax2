@@ -1,0 +1,4 @@
+pid,artist,location,label,_date,object_type,test_field,current_location,source,order
+obj1,,,,,,test1,,,0
+obj2,,,,,,test2,,,1
+obj3,,,,,,test3,,,2
