@@ -16,7 +16,7 @@ jobs:
       - name: pages
         run: bundle exec rake wax:pages test
       - name: search
-        run: bundle exec rake wax:search
+        run: bundle exec rake wax:search main
       - name: derivaties
         run: bundle exec rake wax:derivatives:iiif test
       - name: commit files
