@@ -61,6 +61,13 @@ collections:
     metadata:
       source: testrun_3.csv
     output: true
+  testrun_4:
+    images:
+      source: raw_images/testrun_4
+    layout: qatar_item
+    metadata:
+      source: testrun_4.csv
+    output: true
 copyright: Example copyright org, 2019
 description: Minimal Exhibitions with Jekyll
 exclude:
@@ -178,6 +185,19 @@ search:
         - source
         - order
       testrun_3:
+        content: false
+        fields:
+        - pid
+        - artist
+        - location
+        - label
+        - _date
+        - object_type
+        - test_field
+        - current_location
+        - source
+        - order
+      testrun_4:
         content: false
         fields:
         - pid
