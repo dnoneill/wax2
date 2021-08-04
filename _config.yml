@@ -122,6 +122,7 @@ sass:
   style: compressed
 search:
   main:
+    collections:
       qatar:
         content: false
         fields:
@@ -131,19 +132,6 @@ search:
         - _date
         - object_type
         - current_location
-      testing_run1:
-        content: false
-        fields:
-        - pid
-        - artist
-        - location
-        - label
-        - _date
-        - object_type
-        - test_field
-        - current_location
-        - source
-        - order
       test:
         content: false
         fields:
