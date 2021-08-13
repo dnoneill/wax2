@@ -3,32 +3,43 @@ canvas: "https://dnoneill.github.io/wax2/img/derivatives/iiif/canvas/obj12_02.js
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1f6efeaf-818a-44d2-9020-583d6337f3e2.json",
     "target": {
-        "source": "https://dnoneill.github.io/wax2/img/derivatives/iiif/canvas/obj12_02.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:2040.1710205078125,2939.59716796875,2828.8587646484375,2516.7783203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/wax2/img/derivatives/iiif/obj12/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:2040.1710205078125,2939.59716796875,2828.8587646484375,2516.7783203125"
+        },
+        "source": "https://dnoneill.github.io/wax2/img/derivatives/iiif/canvas/obj12_02.json"
     },
+    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "commenting",
             "created": "2021-08-13T02:15:58.121Z",
-            "value": "horse",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "modified": "2021-08-13T02:15:58.714Z"
+            "modified": "2021-08-13T02:15:58.714Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "horse"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "commenting",
+            "created": "2021-08-13T02:18:31.672Z",
+            "value": "test",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-08-13T02:18:31.994Z"
         }
-    ],
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1f6efeaf-818a-44d2-9020-583d6337f3e2.json"
+    ]
 }
