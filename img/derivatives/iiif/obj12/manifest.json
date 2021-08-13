@@ -41,6 +41,13 @@ layout: none
               },
               "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj12_00.json"
             }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-00-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
           ]
         },
         {
@@ -69,6 +76,13 @@ layout: none
               },
               "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj12_01.json"
             }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-01-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
           ]
         },
         {
@@ -96,6 +110,13 @@ layout: none
                 }
               },
               "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj12_02.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-02-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
@@ -131,6 +152,11 @@ layout: none
               "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-03-list.json",
               "@type": "sc:AnnotationList",
               "label": ""
+            },
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-03-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
@@ -160,6 +186,13 @@ layout: none
               },
               "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj12_04.json"
             }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-04-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
           ]
         },
         {
@@ -187,6 +220,13 @@ layout: none
                 }
               },
               "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj12_05.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-05-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         }
