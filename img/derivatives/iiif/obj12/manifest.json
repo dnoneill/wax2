@@ -67,6 +67,11 @@ layout: none
               "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-00-list.json",
               "@type": "sc:AnnotationList",
               "label": ""
+            },
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-00-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
@@ -122,6 +127,11 @@ layout: none
               "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-01-list.json",
               "@type": "sc:AnnotationList",
               "label": ""
+            },
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-01-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
@@ -153,6 +163,11 @@ layout: none
             }
           ],
           "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-02-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            },
             {
               "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-02-list.json",
               "@type": "sc:AnnotationList",
@@ -237,6 +252,11 @@ layout: none
               "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-03-list.json",
               "@type": "sc:AnnotationList",
               "label": ""
+            },
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-03-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
@@ -292,6 +312,11 @@ layout: none
               "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-04-list.json",
               "@type": "sc:AnnotationList",
               "label": ""
+            },
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-04-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
@@ -323,6 +348,11 @@ layout: none
             }
           ],
           "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-05-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            },
             {
               "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-05-list.json",
               "@type": "sc:AnnotationList",
