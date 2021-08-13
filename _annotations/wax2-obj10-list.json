@@ -6,4 +6,4 @@ canvas_id: "https://dnoneill.github.io/wax2/img/derivatives/iiif/canvas/obj10.js
 "@context": "http://iiif.io/api/presentation/2/context.json",
 "id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
 "type": "AnnotationPage",
-"resources": [{{ annotations | join: ","}}] }
+"items": [{{ annotations | join: ","}}] }
