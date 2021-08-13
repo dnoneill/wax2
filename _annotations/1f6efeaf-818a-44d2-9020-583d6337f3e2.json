@@ -40,6 +40,17 @@ order: 1
                 "name": "dnoneill"
             },
             "modified": "2021-08-13T02:18:31.994Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "replying",
+            "created": "2021-08-13T02:19:20.291Z",
+            "value": "test2",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-08-13T02:19:20.947Z"
         }
     ]
 }
