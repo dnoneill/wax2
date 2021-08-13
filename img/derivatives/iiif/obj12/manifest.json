@@ -41,13 +41,6 @@ layout: none
               },
               "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj12_00.json"
             }
-          ],
-          "otherContent": [
-            {
-              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-00-list.json",
-              "@type": "sc:AnnotationList",
-              "label": ""
-            }
           ]
         },
         {
@@ -75,6 +68,13 @@ layout: none
                 }
               },
               "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj12_01.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wax2-obj12-01-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         },
