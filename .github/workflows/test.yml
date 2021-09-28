@@ -12,7 +12,7 @@ jobs:
         with:
           bundler-cache: true
       - name: imgmagick
-        run: sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xml.off
+        run: sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xml.off && sudo apt-get update && sudo apt-get install -y ghostscript-x
       - name: install
         run: gem install bundler && bundle
       - name: pages
