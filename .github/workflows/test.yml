@@ -12,7 +12,7 @@ jobs:
         with:
           bundler-cache: true
       - name: imgmagick
-        run: sudo sed -i '/disable ghostscript format types/,+6d' /etc/ImageMagick-6/policy.xml
+        run: sudo sed -i '/disable ghostscript format types/,+6d' /etc/ImageMagick-6/policy.xml && sudo systemctl restart php7.2-fpm.service
       - name: install
         run: gem install bundler && bundle
       - name: pages
