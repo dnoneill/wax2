@@ -12,7 +12,7 @@ jobs:
         with:
           bundler-cache: true
       - name: imgmagick
-        run: brew install imagemagick
+        run: sudo apt-get install imagemagick
       - name: install
         run: gem install bundler && bundle
       - name: pages
