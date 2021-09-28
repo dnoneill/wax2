@@ -12,7 +12,7 @@ jobs:
         with:
           bundler-cache: true
       - name: imgmagick
-        run: brew install imagemagick && sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xml.off
+        run: sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xml.off
       - name: install
         run: gem install bundler && bundle
       - name: pages
