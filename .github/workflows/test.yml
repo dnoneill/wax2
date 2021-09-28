@@ -3,7 +3,7 @@ on: workflow_dispatch
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
         with:
@@ -12,7 +12,7 @@ jobs:
         with:
           bundler-cache: true
       - name: imgmagick
-        run: sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xml.off && sudo apt-get update && sudo apt-get install -y ghostscript-x
+        run: brew install imagemagick
       - name: install
         run: gem install bundler && bundle
       - name: pages
