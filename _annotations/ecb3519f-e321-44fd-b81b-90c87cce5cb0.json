@@ -3,32 +3,43 @@ canvas: "https://dnoneill.github.io/wax2/img/derivatives/iiif/canvas/obj1.json"
 order: 1
 ---
 {
-    "type": "Annotation",
-    "target": {
-        "source": "https://dnoneill.github.io/wax2/img/derivatives/iiif/canvas/obj1.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:2638.20361328125,509.6013488769531,404.1416015625,251.93234252929688"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://dnoneill.github.io/wax2/img/derivatives/iiif/obj1/manifest.json",
-            "type": "Manifest"
-        }
-    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "commenting",
             "created": "2021-08-13T02:31:02.874Z",
-            "value": "mountain",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "modified": "2021-08-13T02:31:03.915Z"
+            "modified": "2021-08-13T02:31:03.915Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "mountain"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "mountain",
+            "creator": {
+                "id": "annonatate",
+                "name": "Annonatate"
+            },
+            "created": "2022-03-28T20:58:47.999Z"
         }
     ],
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ecb3519f-e321-44fd-b81b-90c87cce5cb0.json"
+    "id": "ecb3519f-e321-44fd-b81b-90c87cce5cb0.json",
+    "target": {
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/wax2/img/derivatives/iiif/obj1/manifest.json",
+            "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2638.20361328125,509.6013488769531,404.1416015625,251.93234252929688"
+        },
+        "source": "https://dnoneill.github.io/wax2/img/derivatives/iiif/canvas/obj1.json"
+    },
+    "type": "Annotation",
+    "motivation": "commenting"
 }
